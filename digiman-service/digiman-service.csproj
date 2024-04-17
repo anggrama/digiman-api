@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>digiman_service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DigiDocu\v1\DashboardService.cs" />
+    <Compile Remove="DigiDocu\v1\DocumentProfileService.cs" />
+    <Compile Remove="DigiDocu\v1\DocumentService.cs" />
+    <Compile Remove="DigiDocu\v1\GroupService.cs" />
+    <Compile Remove="DigiDocu\v1\NotificationService.cs" />
+    <Compile Remove="DigiDocu\v1\ParameterService.cs" />
+    <Compile Remove="DigiDocu\v1\ProcessQueueService.cs" />
+    <Compile Remove="DigiDocu\v1\RoleService.cs" />
+    <Compile Remove="DigiDocu\v1\SearchService.cs" />
+    <Compile Remove="DigiDocu\v1\StorageService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\digiman-common\digiman-common.csproj" />
+    <ProjectReference Include="..\digiman-dal\digiman-dal.csproj" />
+  </ItemGroup>
+
+</Project>

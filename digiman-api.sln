@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "digiman-api", "digiman-api\digiman-api.csproj", "{B636DDA7-657C-45D5-BB2D-CB2B325E329A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "digiman-service", "digiman-service\digiman-service.csproj", "{612CC516-6FA7-42BF-818B-B69824DA5C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "digiman-common", "digiman-common\digiman-common.csproj", "{1A0654DF-5A6F-4BD9-9F96-D68C9F2462FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "digiman-dal", "digiman-dal\digiman-dal.csproj", "{33E0AD02-B8EB-4715-82FC-72636E5D3DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B636DDA7-657C-45D5-BB2D-CB2B325E329A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B636DDA7-657C-45D5-BB2D-CB2B325E329A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B636DDA7-657C-45D5-BB2D-CB2B325E329A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B636DDA7-657C-45D5-BB2D-CB2B325E329A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612CC516-6FA7-42BF-818B-B69824DA5C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612CC516-6FA7-42BF-818B-B69824DA5C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612CC516-6FA7-42BF-818B-B69824DA5C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612CC516-6FA7-42BF-818B-B69824DA5C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0654DF-5A6F-4BD9-9F96-D68C9F2462FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0654DF-5A6F-4BD9-9F96-D68C9F2462FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0654DF-5A6F-4BD9-9F96-D68C9F2462FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0654DF-5A6F-4BD9-9F96-D68C9F2462FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E0AD02-B8EB-4715-82FC-72636E5D3DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E0AD02-B8EB-4715-82FC-72636E5D3DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E0AD02-B8EB-4715-82FC-72636E5D3DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E0AD02-B8EB-4715-82FC-72636E5D3DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A5894A6-60F6-4768-943A-6B84A6B0F539}
+	EndGlobalSection
+EndGlobal
