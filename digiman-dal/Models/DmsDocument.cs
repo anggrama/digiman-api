@@ -25,13 +25,17 @@ public partial class DmsDocument
 
     public bool IsObsolete { get; set; }
 
-    public Guid? CreatedBy { get; set; }
+    public string? CreatedBy { get; set; }
 
     public DateTime? CreatedAt { get; set; }
 
-    public Guid? UpdatedBy { get; set; }
+    public string? UpdatedBy { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
+
+    public string? DeletedBy { get; set; }
+
+    public DateTime? DeletedAt { get; set; }
 
     public virtual ICollection<DmsDocumentDetail> DmsDocumentDetails { get; set; } = new List<DmsDocumentDetail>();
 

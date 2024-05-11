@@ -15,7 +15,15 @@ public partial class SysNotification
 
     public string? AvailableParameter { get; set; }
 
-    public Guid? ModifiedBy { get; set; }
+    public string? CreatedBy { get; set; }
 
-    public DateTime? ModifiedAt { get; set; }
+    public DateTime? CreatedAt { get; set; }
+
+    public string? UpdatedBy { get; set; }
+
+    public DateTime? UpdatedAt { get; set; }
+
+    public string? DeletedBy { get; set; }
+
+    public DateTime? DeletedAt { get; set; }
 }
