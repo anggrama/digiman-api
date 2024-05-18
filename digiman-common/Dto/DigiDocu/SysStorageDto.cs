@@ -6,18 +6,13 @@ using System.Text;
 
 namespace digiman_common.Dto.DigiDocu
 {
-    public class SysStorage
+    public class SysStorageCreate
     {
         public Guid? Id { get; set; }
         public string Name { get; set; }
         public Guid? StorageTypeId { get; set; }
-        public List<SettingCollectionDto<string,string>> StorageOptions { get; set; }
+        public List<SettingCollectionDto<string,string>>? StorageOptions { get; set; }
         public bool IsActive { get; set; }
-
-        public SysStorage()
-        {
-
-        }
 
         //public SysStorage(Entities.SysStorages storage)
         //{
@@ -50,7 +45,29 @@ namespace digiman_common.Dto.DigiDocu
 
     }
 
-    public class StorageList
+    public class SysStorageUpdate
+    {
+        public string Name { get; set; }
+        public Guid? StorageTypeId { get; set; }
+        public List<SettingCollectionDto<string, string>>? StorageOptions { get; set; }
+        public bool IsActive { get; set; }
+
+    }
+
+    public class SysStorageResponse
+    {
+        public Guid Id { get; set; }
+        public string? Name { get; set; }
+        public bool IsActive { get; set; }
+        public Guid? StorageTypeId { get; set; }
+        public string? StorageOptions { get; set; }
+        public string? CreatedBy { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public string? UpdatedBy { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+    }
+
+    public class SysStorageList
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

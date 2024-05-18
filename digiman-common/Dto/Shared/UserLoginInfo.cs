@@ -9,7 +9,7 @@ namespace digiman_common.Dto.Shared
     public class UserLoginInfo
     {
         public Guid UserId { get; set; }
-        public string UserName { get; set; } = string.Empty;
+        public string Username { get; set; } = string.Empty;
         public string Fullname { get; set; } = string.Empty;
     }
 }

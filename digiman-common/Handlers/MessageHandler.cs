@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace digiman_common.Handler.MessageHandler
+namespace digiman_common.Handlers.MessageHandler
 {
     public enum OperationStatus
     {
